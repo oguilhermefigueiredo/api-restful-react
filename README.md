@@ -14,6 +14,8 @@
 
 - React Query
 
+- State-while-revalidate
+
 ----
 
 ## JSON Data from the GitHub API
