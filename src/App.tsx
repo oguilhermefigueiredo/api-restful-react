@@ -1,6 +1,7 @@
 import axios from 'axios'
 import { useQuery } from 'react-query'
 import './App.css'
+import { Title } from './Title'
 
 type Repository = {
   full_name: string;
@@ -13,7 +14,6 @@ function App() {
 
     return response.data;
   }, {
-    refetchOnWindowsFocus: false,
     staleTime: 1000 * 60, // 1 minute
   })
 
